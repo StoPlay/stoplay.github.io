@@ -1,0 +1,20 @@
+/* StoPlay.github.io CSS */
+.carousel .item .carousel-caption.m_dark {
+	color: #333;
+}
+
+.carousel-control .arr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 1em;
+
+	margin: -0.5em 0 0 -0.5em;
+}
+
+.b_contacts,
+header,
+footer  {
+	padding: 40px 0;
+}
