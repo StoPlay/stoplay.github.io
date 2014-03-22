@@ -185,10 +185,6 @@
 	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(function() {
-			if (chrome.app.isInstalled) {
-				$(".b_install").addClass("m_installed");
-			}
-
 			$(".b_install .e_install").on("click", function(e) {
 				e.preventDefault();
 				chrome.webstore.install();
