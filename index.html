@@ -191,10 +191,7 @@
 		$(function() {
 			$(".b_install .e_install").on("click", function(e) {
 				e.preventDefault();
-				var obj = $(this);
-				chrome.webstore.install(function() {
-					$(".b_install").addClass("m_installed");
-				});
+				chrome.webstore.install();
 			})
 		})
 	</script>
