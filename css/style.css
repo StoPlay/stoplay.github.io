@@ -19,5 +19,5 @@ footer  {
 	padding: 40px 0;
 }
 .b_install .e_installed {display: none;}
-.b_install.m_installed .e_installed {display: inline-block;}
-.b_install.m_installed .e_install {display: none;}
+body.m_installed .b_install .e_installed {display: inline-block;}
+body.m_installed .b_install .e_install {display: none;}
