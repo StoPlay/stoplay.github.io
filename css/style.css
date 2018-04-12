@@ -21,3 +21,7 @@ footer  {
 .b_install .e_installed {display: none;}
 body.m_installed .b_install .e_installed {display: inline-block;}
 body.m_installed .b_install .e_install {display: none;}
+
+.webstore-image img {
+	max-width: 100%;
+}
